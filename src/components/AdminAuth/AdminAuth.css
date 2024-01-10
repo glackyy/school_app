@@ -1,0 +1,75 @@
+div {
+  background-color: #161b22;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.container {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.auth-h1 {
+  margin-top: 300px;
+  font-size: 20px;
+  margin-left: 250px;
+  color: white /* Updated text color */
+}
+
+.form-auth p {
+  margin-left: 60px;
+  font-size: 14px;
+  color: #ff0000;
+}
+.form-auth {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-left: 65%;
+  margin-top: -150px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #c9d1d9; /* Updated text color */
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #c9d1d9; /* Updated border color */
+  border-radius: 4px;
+  background-color: #161b22; /* Updated background color */
+  color: white; /* Text color */
+}
+
+button {
+  background-color: #28a745; /* Updated button color */
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #218838; /* Updated hover color */
+}
+
+@media (max-width: 768px) {
+    #root {
+        width: 80%;
+  }
+}

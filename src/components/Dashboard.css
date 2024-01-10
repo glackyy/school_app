@@ -1,0 +1,117 @@
+/* Dashboard.css */
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-sidebar {
+  background-color: #161b22;
+  color: white;
+  padding: 20px;
+  width: 180px;
+  border-right: 1px solid wheat;
+}
+
+.left-sidebar h1 {
+  margin-top: 3px;
+  color: white
+}
+
+.left-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.left-sidebar li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.left-sidebar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.left-sidebar img {
+  margin-bottom: -4px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dashboard-main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styles */
+.dashboard-header {
+  background-color: white;
+  padding: 10px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid wheat; /* Add border style to the bottom */
+}
+
+.dashboard-header 
+.dashboard-title h1 {
+  background-color: white;
+  color: gray;
+  margin: 0;
+}
+
+/* Search Bar styles */
+.search-bar {
+  flex: 1;
+  background-color: white;
+  margin: 0 10px;
+}
+
+.search-bar input {
+  margin-left: 30%;
+  width: 700px;
+  background-color: white;
+  padding: 8px;
+}
+
+/* Notifications styles */
+.notifications {
+  background-color: white;
+}
+.notifications img {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.main-content {
+  background-color: wheat;
+  height: 100%;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  #root {
+      width: 80%;
+  }
+}
